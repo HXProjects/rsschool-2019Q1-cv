@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Volha Zakharava (Ольга Захарова)  
 ![GitHub Logo](images/myphoto.jpg)  
 
@@ -49,6 +48,3 @@ namespace CodeExample
 * Languages: Russian (native), English (b2), Swedish (c1);
 * Driving license: B category;
 * Hobbies: table tennis, music.
-=======
-## Volha Zakharava
->>>>>>> 3d67e1927bef9c43d969c54c041ad83d0779c19f
