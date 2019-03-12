@@ -88,8 +88,10 @@ a{
     font-size: 1.4em;
     
 }
-
-.main-section{
+.section h2{
+    font-size: 2.5em;
+}
+.div-section{
     display: flex;
     font-size: 2em;
 
@@ -99,6 +101,10 @@ a{
 }
 .info-right{
     padding-left:40px;
+}
+.div-section table td{
+    border-collapse: collapse;
+    border-bottom:2px solid #1182dd;
 }
 .info-right span{
     color: green;
