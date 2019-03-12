@@ -1,0 +1,29 @@
+html, 
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 1024px;
+    margin: 0 auto;
+}
+.main-content{
+    height:auto;
+    min-height: 100%;
+}
+header{
+    height: 100px;
+    padding-bottom: 100px;
+}
+h1{
+    color:red;
+}
+main{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+footer{
+    background: grey;
+    height: 100px;
+}
