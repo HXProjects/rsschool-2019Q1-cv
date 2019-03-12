@@ -22,7 +22,7 @@ a{
 .header{
     position: fixed;
     display: inline-block;
-    height: 100px;
+    height: 10px;
     width:100%;
     left: 0;
     top: 0;
@@ -30,7 +30,7 @@ a{
     text-transform: uppercase;
     background-image: url(images/header-bgr.jpg);
     overflow: hidden;
-    z-index: 1;
+   /* z-index: 1;*/
 }
 .header h1{
     color: #a4e5f0;
@@ -45,7 +45,8 @@ a{
 .menu{
     display: flex;
     padding-top:-40px;
-    align-content:center;
+    padding-bottom: 10px;
+    /*align-content:center;*/
     justify-content: center;
      
     
@@ -94,13 +95,19 @@ a{
 .div-section{
     display: flex;
     font-size: 2em;
-
 }
+.div-section.section-one{
+    justify-content: space-between;
+}
+
 .section h2{
     text-transform: uppercase;
 }
 .info-right{
     padding-left:40px;
+}
+.info-left{
+    padding-right:40px;
 }
 .div-section table td{
     border-collapse: collapse;
@@ -110,9 +117,17 @@ a{
     color: green;
     padding-right:10px; 
 }
-
+.picture-right{
+    justify-content: right;
+    align-content: right;
+    padding-left: 20px;
+}
 footer{
     margin-top: 100px;
     height: 100px;
     background: grey;
+    font-size: 2em;
+}
+footer p{
+    padding-top:40px;
 }
